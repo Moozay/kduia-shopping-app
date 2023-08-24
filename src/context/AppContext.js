@@ -62,11 +62,11 @@ export const AppReducer = (state, action) => {
 // 1. Sets the initial state when the app loads
 const initialState = {
     expenses: [
-        { id: "Shirt", name: 'Shirt', quantity: 0, unitprice: 500 },
-        { id: "Jeans", name: 'Jeans', quantity: 0, unitprice: 300 },
-        { id: "Dress", name: 'Dress', quantity: 0, unitprice: 400 },
-        { id: "Dinner set", name: 'Dinner set', quantity: 0, unitprice: 600 },
-        { id: "Bags", name: 'Bags', quantity: 0, unitprice: 200 },
+        { id: "Marketing", department: 'Marketing', allocatedbudget: 0},
+        { id: "Finance", department: 'Finance', allocatedbudget: 0},
+        { id: "Sales", department: 'Sales', allocatedbudget: 0},
+        { id: "Human Resource", department: 'Human Resource', department: 0},
+        { id: "IT", department: 'IT', allocatedbudget: 0},
     ],
     Location: '£'
 };
